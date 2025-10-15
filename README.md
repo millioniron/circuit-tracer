@@ -1,4 +1,3 @@
-```markdown
 # circuit-tracer + Graph-LLM Extension
 
 This repository is a **fork and extension** of [`circuit-tracer`](https://github.com/safety-research/circuit-tracer), a library for mechanistic interpretability in large language models (LLMs) using **cross-layer transcoders**. We build upon the foundational methodology introduced in:
@@ -103,7 +102,6 @@ graph = model.attribute("node_b connect[node_c, node_d]")
 
 # Suppress "high-degree node" features
 intervene(model, graph, target_supernode="high_degree", factor=-2.0)
-```
 
 ---
 
