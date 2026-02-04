@@ -5,10 +5,6 @@ This repository is a **fork and extension** of [`circuit-tracer`](https://github
 - **Ameisen et al. (2025)** – [*Circuit Tracing: Revealing Computational Graphs in Language Models*](https://transformer-circuits.pub/2025/attribution-graphs/methods.html)  
 - **Lindsey et al. (2025)** – [*On the Biology of a Large Language Model*](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
 
-Our extension focuses on **applying and adapting circuit tracing to graph-structured inputs**, as explored in our paper:
-
-> **Guan et al. (2025)** – [*Attention Mechanisms Perspective: Exploring LLM Processing of Graph-Structured Data*](https://arxiv.org/abs/2505.02130)  
-> **[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.02130)**
 
 We investigate **why LLMs struggle to “think in graphs”** using a **dual-diagnosis framework**:  
 🔹 **Macro-level**: attention pattern analysis  
@@ -112,39 +108,6 @@ We support transcoders for:
 - **Qwen-3** – PLTs (0.6B to 14B)
 
 Use `--transcoder_set gemma` or provide HuggingFace repo IDs.
-
----
-
-## 📝 Citation
-
-If you use this code, please cite both the original `circuit-tracer` and our graph extension:
-
-```bibtex
-% Original circuit tracing framework
-@article{ameisen2025circuit,
-  author = {Ameisen, Emmanuel and Lindsey, Jack and Pearce, Adam and others},
-  title = {Circuit Tracing: Revealing Computational Graphs in Language Models},
-  journal = {Transformer Circuits Thread},
-  year = {2025},
-  url = {https://transformer-circuits.pub/2025/attribution-graphs/methods.html}
-}
-
-% Our graph-LLM extension
-@article{guan2025attention,
-  title = {Attention Mechanisms Perspective: Exploring LLM Processing of Graph-Structured Data},
-  author = {Guan, Zhong and Wu, Likang and Zhao, Hongke and He, Ming and Fan, Jianpin},
-  journal = {arXiv preprint arXiv:2505.02130},
-  year = {2025}
-}
-
-% circuit-tracer library
-@misc{circuit-tracer,
-  author = {Hanna, Michael and Piotrowski, Mateusz and Lindsey, Jack and Ameisen, Emmanuel},
-  title = {circuit-tracer},
-  howpublished = {\url{https://github.com/safety-research/circuit-tracer}},
-  year = {2025}
-}
-```
 
 ---
 
