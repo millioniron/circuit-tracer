@@ -1,10 +1,3 @@
-# circuit-tracer + Graph-LLM Extension
-
-This repository is a **fork and extension** of [`circuit-tracer`](https://github.com/safety-research/circuit-tracer), a library for mechanistic interpretability in large language models (LLMs) using **cross-layer transcoders**. We build upon the foundational methodology introduced in:
-
-- **Ameisen et al. (2025)** – [*Circuit Tracing: Revealing Computational Graphs in Language Models*](https://transformer-circuits.pub/2025/attribution-graphs/methods.html)  
-- **Lindsey et al. (2025)** – [*On the Biology of a Large Language Model*](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
-
 
 We investigate **why LLMs struggle to “think in graphs”** using a **dual-diagnosis framework**:  
 🔹 **Macro-level**: attention pattern analysis  
